@@ -1,0 +1,33 @@
+*{transition: all 2s;}
+
+
+
+body{
+    background-color: aquamarine;
+    background-image: url(https://www.atrafloor.com/app/uploads/2019/11/blue-art-deco-scallop-print-vinyl-flooring-Room.jpg);
+}
+
+.row{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column{
+    background:rgba(255,255,255, 1);
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+#bio .column{
+    background-color: rgb(104, 180, 94);
+    width: 50%;
+   
+}
+
+
+.column:hover{
+    transform: rotate(777deg);
+}
+
+.column:hover
